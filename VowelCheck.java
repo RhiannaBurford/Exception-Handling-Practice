@@ -13,7 +13,7 @@ public class VowelCheck {
             System.out.println("Your input was accepted, thank you");
         }
         catch (RuntimeException e){
-            System.out.println("ERROR: You did not enter a string");
+            System.out.println("ERROR: no vowels");
         }
         sinput.close();
     }
