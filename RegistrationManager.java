@@ -15,5 +15,8 @@ public class RegistrationManager {
         catch (InvalidPasswordException e){
             System.out.println("ERROR: " + e.getMessage() + ". Please try a longer password");
         }
+        finally {
+            System.out.println("Session closed");
+        }
     }
 }
